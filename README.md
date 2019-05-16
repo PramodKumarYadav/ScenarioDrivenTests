@@ -100,4 +100,16 @@
 
 # Credits and References:
 	I did not invented any of the stuff that I used in building my framework. Below I mention some of the key websites I used to put all the stuff together in a framework.This way, you know where the information is coming from and possibly explore these websites for more content. So with that note, I say happy learning. 
+	-> On SQLlite : http://www.sqlitetutorial.net/sqlite-java/
+			https://www.sqlite.org/index.html
+	-> On TestRunner, Test Suite -> https://www.baeldung.com/junit-tests-run-programmatically-from-java
+	-> On Junit 5 and making it run from command line (needed for continous integration).
+		https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-running-unit-tests-with-maven/
+	-> A general site to look for mvn dependencies
+		https://mvnrepository.com/
+	-> A online java regex tool to write regex tests (I dont show examples in this code but I use it in my tests and it is handy)
+		https://www.freeformatter.com/java-regex-tester.html#ad-output
+	-> For doing JSON asserts
+		https://www.baeldung.com/jsonassert
+		
   
