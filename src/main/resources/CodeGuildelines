@@ -1,0 +1,7 @@
+Some guidelines to follow for consistency and reducing impact due to changes:
+----------------------------------------------------------------------------
+1. All Folder paths ends with a back slash "\"
+    Example (In InputRoot class : private final static String Input_ROOT = "C:\\SourceCode\\MyApplication\\ftproot\\";)
+    Note: A deviation will impact tests. So remember to follow this construction.
+2. Leave a gap after the // in the comments.
+    Example: // Here I am leaving a space after // to write a comment.
