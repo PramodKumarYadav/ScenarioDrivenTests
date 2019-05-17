@@ -20,7 +20,7 @@ public class Config {
         return pathGlobal;
     }
 
-    private final static String FTP_ROOT = "C:\\SourceCodeTLM\\Juno\\ftproot\\";
+    private final static String FTP_ROOT = "C:\\SourceCode\\MyApplication\\ftproot\\";
     public final static String getFTPRootPath() {
         return FTP_ROOT;
     }
