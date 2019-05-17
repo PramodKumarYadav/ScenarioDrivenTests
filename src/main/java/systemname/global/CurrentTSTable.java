@@ -62,13 +62,12 @@ public class CurrentTSTable {
         jdbcSQLITE.runUpdate(query);
     }
     @Test
-    public void updateCurrentTSRecord(String nameTS, String path){
-        logger.info("Updating CurrentTS Path and Name variables with latest runs TS folder details...");
+    public void updateTSRunStatus(String runStatus){
+        logger.info("Updating TS Run status ...");
 
-        String query = String.format("UPDATE CurrentTS SET name = '%s' , \n" +
-                "                 Path = '%s' ,\n" +
+        String query = String.format("UPDATE CurrentTS SET RunStatus = '%s' , \n" +
                 "                 LastModified = datetime('now', 'localtime') \n" +
-                "                 ;" ,nameTS ,path);
+                "                 ;" ,runStatus );
         jdbcSQLITE.runUpdate(query);
     }
     @Test
